@@ -1,0 +1,28 @@
+<html>
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container my-5 text-center  ">
+        <div class="group m-auto w-75 p-5">
+            <h1>Smart Login System</h1>
+            <input id="UserName" class="form-control my-3" placeholder="Enter your Name" type="text">
+
+            <input id="UserEmail" class="form-control my-3" placeholder="Enter your email" type="text">
+            <input id="UserPassword" class="form-control my-3" placeholder="Enter your password" type="password">
+            <lable class="d-none text-danger" id="Error">All inputs is required</lable>
+            <lable class="d-none text-success" id="Success">Success</lable>
+
+            <button class="btn btn-outline-info w-100 my-3 " onclick="SignUp()">Sign Up</button>
+            <P class="text-white">
+                Don’t have an account? <a class="text-white" href="index.html">SignIn</a>
+            </P>
+        </div>
+        <script src="js/script.js">
+
+        </script>
+</body>
+</html>
